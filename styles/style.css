@@ -31,6 +31,8 @@ Nav Section Start
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
 }
 .nav a {
   text-decoration: none;
@@ -124,6 +126,43 @@ Player section Start
 }
 .player-detail {
   margin: 15px;
+}
+
+/*---------------------------------
+ Fixture Section Start
+ ------------------------ */
+
+.fixtures {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.fixture {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 400px;
+  height: 220px;
+  padding: 20px;
+}
+
+span {
+  margin-right: 100px;
+}
+.club-symble {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time {
+  background-color: lightgray;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.club-image img {
+  width: 100px;
 }
 
 /* --------------------------
