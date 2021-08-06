@@ -148,8 +148,9 @@ Player section Start
 }
 
 span {
-  margin-right: 100px;
+  margin-right: 80px;
 }
+
 .club-symble {
   display: flex;
   justify-content: space-between;
